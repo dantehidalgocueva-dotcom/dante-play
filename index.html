@@ -17,10 +17,11 @@
     <header class="header">
         <div class="container">
             <h1 class="logo">Dante Play</h1>
-            <button class="menu-btn">☰</button>
+            <button class="menu-btn" aria-label="Abrir menú">☰</button>
         </div>
     </header>
 
+    <main>
     <!-- HERO -->
     <section class="hero">
         <div class="container">
@@ -30,38 +31,71 @@
         </div>
     </section>
 
+    <section class="new-releases">
+    <div class="container">
+
+        <h2 class="section-title">Nuevos Lanzamientos</h2>
+
+        <div class="release-card">
+
+            <div class="release-image">
+                <img src="imagenes/sparking-zero.jpg" alt="Dragon Ball:Sparking! Zero">
+            </div>
+
+            <div class="release-info">
+                <h3>Dragon Ball: Sparking! Zero</h3>
+                <p>
+                    Sacude la tierra. Destruye los cielos. ¡Toma control del poder destructivo de los luchadores más poderosos de todo Dragon Ball!
+                </p>
+
+                <span class="price">$69.99</span>
+
+                <button class="btn-primary">
+                    Comprar ahora
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
     <!-- PRODUCTOS -->
     <section class="products">
         <div class="container">
             <h2 class="section-title">Destacados</h2>
 
             <div class="products-grid">
-           <div class="product-card">
+
+                <!--Card-->
+           <article class="product-card">
     <div class="product-image"></div>
     <h3>God of War Ragnarök</h3>
     <p class="platform">PS5</p>
     <p class="price">$69.99</p>
     <button class="btn-secondary">Agregar al carrito</button>
-</div>
+           </article>
 
-<div class="product-card">
+<article class="product-card">
     <div class="product-image"></div>
     <h3>Spider-Man 2</h3>
     <p class="platform">PS5</p>
     <p class="price">$69.99</p>
     <button class="btn-secondary">Agregar al carrito</button>
-</div>
+</article>
 
-<div class="product-card">
+<article class="product-card">
     <div class="product-image"></div>
     <h3>The Legend of Zelda: Tears of the Kingdom</h3>
     <p class="platform">Nintendo Switch</p>
     <p class="price">$59.99</p>
     <button class="btn-secondary">Agregar al carrito</button>
-</div>
+</article>
 </div>
         </div>
     </section>
+
+    </main>
 
     <!-- FOOTER -->
     <footer class="footer">
