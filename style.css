@@ -186,13 +186,20 @@ body {
         0 0 15px rgba(0,245,255,0.2);
 }
 
+
 /* Imagen simulada */
 .product-image {
-    width: 100%;
-    height: 150px;
-    background: linear-gradient(135deg, var(--color-primary), var(--color-neon));
+     width: 100%;
+    height: 360px;
+    overflow: hidden;
     border-radius: 8px;
     margin-bottom: 1rem;
+}
+
+/* Imagen */
+.product-image img {
+    width: 100%;
+    height: 100%;
 }
 
 /* Plataforma */
